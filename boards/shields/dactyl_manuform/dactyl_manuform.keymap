@@ -29,7 +29,7 @@
                       &kp LBKT  &mt LGUI RBKT                                                               &kp MINUS  &kp EQUAL
                                           &mo RAISE  &kp SPACE                &kp ENTER   &mo LOWER
                                                       &kp LALT &kp LSHIFT   &kp BSPC    &kp PG_UP
-                                                      &kt LSHIFT  &kp LCTRL      &kp DEL     &kp PG_DN
+                                                      &tog ADJUST  &kp LCTRL      &kp DEL     &kp PG_DN
             >;
         };
 
@@ -82,17 +82,17 @@
         adjust_layer {
 // commented layout is not actual layout.
 // -------------------------------------------------------------------------------------------------------------------------
-// |   esc   |    1    |    2    |    3    |    4    |    5    |                   |    6    |    7    |    8    |    9    |    0    |  bspc   |
-// |   tab   |    q    |    w    |    e    |    r    |    t    |                   |    y    |    u    |    i    |    o    |    p    |    \    |
-// |  lalt   |    a    |    s    |    d    |    f    |    g    |                   |    h    |    j    |    k    |    l    |    ;    |    '    |
-// |  lctrl  |    z    |    x    |    c    |    v    |    b    |                   |    n    |    m    |    ,    |    .    |    /    |  ralt   |
-//                     |    [    |    ]    |                                                           |    -    |    =    |
-//                               | mo lay 1| space   |                   | enter   | mo lay 2|
-//                                         |   tab   |   home  |   end   |   del   |
-//                                         |  raise  |    ~    |   gui   |  lower  |
-            bindings = <
-&bt OUT_BLE    &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &none                          &none     &none     &none     &none     &none         &none
-&bt OUT_USB    &bt BT_CLR      &bt BT_CLR_ALL     &none      &none      &none                           &none      &none      &none      &none      &none          &none
+// |  none   | Profile 0 | Profile 1 |  Profile 2  |   Profile 3  |   none  |                   |  none  |  none  | none  |  none  |  none  |  none  |
+// |  none   |   CLEAR   | CLEAR ALL |  none       |   none       |   none  |                   |  none  |  none  | none  |  none  |  none  |  none  |
+// |  none   |   none    |   none    |  none       |   none       |   none  |                   |  none  |  none  | none  |  none  |  none  |  none  |
+// |  none   |   none    |   none    |  none       |   none       |   none  |                   |  none  |  none  | none  |  none  |  none  |  none  |
+//                       |   none    |  none       |                                                              | none  |  none  |
+//                                   |  none       |  none        |                     | none  |  none  |
+//                                                 |  none        |   none  |   none    | none  |
+//                                                 |  none        |   none  |   none    | none  |
+            bindings = <  
+&out OUT_BLE    &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &none                          &none     &none     &none     &none     &none         &none
+&out OUT_USB    &bt BT_CLR      &bt BT_CLR_ALL     &none      &none      &none                           &none      &none      &none      &none      &none          &none
 &none   &none      &none     &none      &none      &none                           &none      &none      &none      &none      &none  &none
 &none  &none      &none     &none      &none      &none                           &none      &none      &none  &none    &none       &none
                       &none  &none                                                               &none  &none
