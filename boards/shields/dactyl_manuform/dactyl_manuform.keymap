@@ -31,7 +31,7 @@
                       &kp LBKT  &mt LGUI RBKT                                                               &kp MINUS  &kp EQUAL
                                           &mo RAISE  &kp SPACE                &kp ENTER   &mo LOWER
                                                      &kp LALT &kp LSHIFT      &kp BSPC    &kp PG_UP
-                                                     &tog ADJUST  &kp LCTRL   &kp DEL     &kp PG_DN
+                                                     &mo ADJUST  &kp LCTRL   &kp DEL     &kp PG_DN
             >;
         };
 
