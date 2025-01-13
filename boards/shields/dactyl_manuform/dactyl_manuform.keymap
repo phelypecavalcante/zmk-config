@@ -5,6 +5,7 @@
 #define DEFAULT 0
 #define RAISE   1
 #define LOWER   2
+#define ADJUST  3
 
 / {
     keymap {
@@ -28,8 +29,8 @@
 &kp CAPS  &kp Z      &kp X     &kp C      &kp V      &kp B                           &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp RALT
                       &kp LBKT  &mt LGUI RBKT                                                               &kp MINUS  &kp EQUAL
                                           &mo RAISE  &kp SPACE                &kp ENTER   &mo LOWER
-                                                      &kp LALT &kp LSHIFT   &kp BSPC    &kp PG_UP
-                                                      &tog ADJUST  &kp LCTRL      &kp DEL     &kp PG_DN
+                                                     &kp LALT &kp LSHIFT      &kp BSPC    &kp PG_UP
+                                                     &tog ADJUST  &kp LCTRL   &kp DEL     &kp PG_DN
             >;
         };
 
