@@ -28,10 +28,10 @@
 &kp GRAVE  &kp Q      &kp W     &kp E      &kp R      &kp T                           &kp Y      &kp U      &kp I      &kp O      &kp P          &kp BSLH
 &kp TAB    &kp A      &kp S     &kp D      &kp F      &kp G                           &kp H      &kp J      &kp K      &kp L      &kp SEMI       &kp SQT
 &kp CAPS   &kp Z      &kp X     &kp C      &kp V      &kp B                           &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp RALT
-                      &kp LBKT  &mt LGUI RBKT                                                               &kp MINUS  &kp EQUAL
+                      &kp LBKT  &mt ADJUST RBKT                                                               &kp MINUS  &kp EQUAL
                                           &mo RAISE  &kp SPACE                        &kp ENTER   &kp BSPC
-                                                     &kp LSHIFT &kp LALT                          &kp UP_ARROW    &kp RIGHT_ARROW
-                                                     &kp LCTRL  &mo ADJUST                        &kp LEFT_ARROW     &kp DOWN_ARROW
+                                                     &kp LSHIFT &kp LGUI                          &kp UP_ARROW    &kp RIGHT_ARROW
+                                                     &kp LCTRL  &kp LALT                         &kp LEFT_ARROW     &kp DOWN_ARROW
             >;
         };
         raise {
