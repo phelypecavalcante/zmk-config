@@ -9,6 +9,15 @@
 #define ADJUST  3
 
 / {
+    macros {
+        snapshot: snapshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LCTRL &kp LSHIFT &LGUI &kp 4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -27,8 +36,8 @@
 &kp ESC    &kp N1     &kp N2    &kp N3     &kp N4     &kp N5                          &kp N6     &kp N7     &kp N8     &kp N9     &kp N0         &mo LOWER
 &kp GRAVE  &kp Q      &kp W     &kp E      &kp R      &kp T                           &kp Y      &kp U      &kp I      &kp O      &kp P          &kp BSLH
 &kp TAB    &kp A      &kp S     &kp D      &kp F      &kp G                           &kp H      &kp J      &kp K      &kp L      &kp SEMI       &kp SQT
-&kp CAPS   &kp Z      &kp X     &kp C      &kp V      &kp B                           &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp RALT
-                      &kp LBKT  &mt ADJUST RBKT                                                               &kp MINUS  &kp EQUAL
+&kp CAPS   &kp Z      &kp X     &kp C      &kp V      &kp B                           &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp DEL
+                      &kp LBKT  &lt ADJUST RBKT                                                               &kp MINUS  &kp EQUAL
                                           &mo RAISE  &kp SPACE                        &kp ENTER   &kp BSPC
                                                      &kp LSHIFT &kp LGUI                          &kp UP_ARROW    &kp RIGHT_ARROW
                                                      &kp LCTRL  &kp LALT                         &kp LEFT_ARROW     &kp DOWN_ARROW
