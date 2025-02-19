@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LCTRL &kp LSHIFT &LGUI &kp 4>
+                = <&kp LCTRL &kp LSHIFT &kp LGUI &kp N4>
             ;
         };
     };
